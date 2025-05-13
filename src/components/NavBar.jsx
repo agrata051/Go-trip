@@ -36,7 +36,7 @@ const NavBar = () => {
   }, []);
 
   return (
-    <nav className={`w-full fixed top-0 transition-colors duration-300 ${isAuthPage ? 'bg-white shadow-md' : isScrolled ? 'bg-[#051036]' : ''}`}>
+    <nav className={`w-full fixed top-0 transition-colors duration-300 ${isAuthPage ? 'bg-white shadow-md' : isScrolled ? 'bg-[#051036]' : 'bg-blue'}`}>
       <div className="w-[95%] mx-auto flex items-center justify-between py-4">
           <NavLink className="text-white font-medium text-3xl" to="/">
             Sarbatra Travels
@@ -45,7 +45,7 @@ const NavBar = () => {
             <li><NavLink to="/">Home</NavLink></li>
             <li><NavLink to="/">Categories</NavLink></li>
             <li><NavLink to="/">Destinations</NavLink></li>
-            <li><NavLink to="/">Blog</NavLink></li>
+            <li><NavLink to="blog">Blog</NavLink></li>
             <li><NavLink to="/">Page</NavLink></li>
             <li><NavLink to="/">Booking</NavLink></li>
             <li><NavLink to="/">Contact</NavLink></li>
