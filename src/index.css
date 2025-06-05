@@ -18,3 +18,13 @@ button {
 .text:hover {
 color: blue;
 }
+
+.destination_bg{
+    background-image: url("https://creativelayers.net/themes/gotrip-html/img/pages/destinations/1.png" );
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   width: 100%;
+  
+}
+
