@@ -4,9 +4,13 @@ import UserLayout from './layout/UserLayout'
 import Home from './pages/Home'
 import Login from './pages/authentication/Login'
 import Register from './pages/authentication/Register'
+
 import Destinations from './pages/Destinations'
+import Blog from './pages/blog';
+
 
 function App() {
+  
   
 
   return (
@@ -17,8 +21,13 @@ function App() {
           <Route index element={<Home />} />
           <Route path="login" element={<Login />} />
           <Route path="register" element={<Register />} />
+
           <Route path="destinations" element={<Destinations />} />
+
+          <Route path='blog' element={<Blog/>} />
+
         </Route>
+
       </Routes>
   
     </>
