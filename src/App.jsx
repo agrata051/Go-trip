@@ -6,6 +6,7 @@ import Login from './pages/authentication/Login'
 import Register from './pages/authentication/Register'
 
 import Destinations from './pages/Destinations'
+import Home1 from './pages/Home1'
 import Blog from './pages/blog';
 
 
@@ -23,6 +24,8 @@ function App() {
           <Route path="register" element={<Register />} />
 
           <Route path="destinations" element={<Destinations />} />
+          <Route path="home1" element={<Home1 />} />
+
 
           <Route path='blog' element={<Blog/>} />
 

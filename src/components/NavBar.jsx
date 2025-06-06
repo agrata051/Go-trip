@@ -37,9 +37,9 @@ const NavBar = () => {
 
   return (
 
-    <nav className={`w-full fixed top-0 transition-colors z-50 duration-300 ${isAuthPage ? 'bg-white shadow-md' : isScrolled ? 'bg-[#051036]' : 'bg-blue-500'}`}>
+    // <nav className={`w-full fixed top-0 transition-colors z-50 duration-300 ${isAuthPage ? 'bg-white shadow-md' : isScrolled ? 'bg-[#051036]' : 'bg-blue-500'}`}>
 
-    <nav className={`w-full fixed top-0 transition-colors duration-300 ${isAuthPage ? 'bg-white shadow-md' : isScrolled ? 'bg-[#051036]' : 'bg-blue'}`}>
+    <nav className={`w-full fixed top-0 transition-colors z-50 duration-300 ${isAuthPage ? 'bg-white shadow-md' : isScrolled ? 'bg-[#051036]' : 'bg-blue-500'}`}>
 
       <div className="w-[95%] mx-auto flex items-center justify-between py-4">
       
@@ -48,6 +48,7 @@ const NavBar = () => {
           </NavLink>
           <ul className={`max-[1120px]:hidden flex items-center gap-5 ${isAuthPage ? 'text-black' : "text-white" } text-md font-light`}>
             <li><NavLink to="/">Home</NavLink></li>
+            <li><NavLink to="Home1">Home1</NavLink></li>
             <li><NavLink to="/">Categories</NavLink></li>
 
             <li><NavLink to="destinations">Destinations</NavLink></li>
