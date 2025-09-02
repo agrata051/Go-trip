@@ -47,8 +47,8 @@ const NavBar = () => {
             Sarbatra Travels
           </NavLink>
           <ul className={`max-[1120px]:hidden flex items-center gap-5 ${isAuthPage ? 'text-black' : "text-white" } text-md font-light`}>
-            <li><NavLink to="/">Home</NavLink></li>
-            <li><NavLink to="Home1">Home1</NavLink></li>
+            {/* <li><NavLink to="/">Home</NavLink></li> */}
+            <li><NavLink to="/">Home1</NavLink></li>
             <li><NavLink to="/">Categories</NavLink></li>
 
             <li><NavLink to="destinations">Destinations</NavLink></li>
