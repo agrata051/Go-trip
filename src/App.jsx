@@ -4,10 +4,8 @@ import UserLayout from './layout/UserLayout'
 // import Home from './pages/Home'
 import Login from './pages/authentication/Login'
 import Register from './pages/authentication/Register'
+import Home from './pages/Home'
 
-import Destinations from './pages/Destinations'
-import Home1 from './pages/Home1'
-import Blog from './pages/Blog';
 
 
 function App() {
@@ -19,15 +17,13 @@ function App() {
       
       <Routes>
         <Route path="/" element={<UserLayout />}>
-          <Route index element={<Home1 />} />
+          <Route index element={<Home />} />
           <Route path="login" element={<Login />} />
           <Route path="register" element={<Register />} />
-
-          <Route path="destinations" element={<Destinations />} />
-          <Route path="home1" element={<Home1 />} />
+          <Route path="home" element={<Home />} />
 
 
-          <Route path='blog' element={<Blog/>} />
+        
 
         </Route>
 
