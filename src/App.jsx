@@ -7,7 +7,7 @@ import Register from './pages/authentication/Register'
 
 import Destinations from './pages/Destinations'
 import Home1 from './pages/Home1'
-import Blog from './pages/blog';
+import Blog from './pages/Blog';
 
 
 function App() {
